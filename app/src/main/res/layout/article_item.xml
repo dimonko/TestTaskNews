@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/indent_15"
+    android:layout_marginStart="@dimen/indent_10"
+    android:layout_marginEnd="@dimen/indent_10"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/indent_15"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/blur_placeholder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/image_view_article_image"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardCornerRadius="@dimen/indent_15"
+            app:cardElevation="0dp"
+            android:layout_margin="@dimen/indent_5"
+            app:cardBackgroundColor="@color/gray_transparent_high"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/text_view_article_title"
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_margin="@dimen/indent_5"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="@dimen/indent_15"
+            app:cardElevation="0dp"
+            android:layout_margin="@dimen/indent_5"
+            app:cardBackgroundColor="@color/gray_transparent_high"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/text_view_article_author"
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_margin="@dimen/indent_5"
+                android:textSize="@dimen/text_size_15"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkbox_favorites"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

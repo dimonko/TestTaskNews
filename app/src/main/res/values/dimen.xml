@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+
+    <dimen name="indent_30">30dp</dimen>
+    <dimen name="indent_60">60dp</dimen>
+    <dimen name="indent_10">10dp</dimen>
+    <dimen name="indent_13">13dp</dimen>
+    <dimen name="indent_15">15dp</dimen>
+    <dimen name="indent_16">16dp</dimen>
+    <dimen name="indent_20">20dp</dimen>
+    <dimen name="indent_25">25dp</dimen>
+    <dimen name="indent_50">50dp</dimen>
+    <dimen name="indent_5">5dp</dimen>
+    <dimen name="indent_2">2dp</dimen>
+
+</resources>

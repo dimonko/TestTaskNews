@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestTaskNews</string>
+
+    <string name="default_error_text">Something went wrong…</string>
+    <string name="favourites">Favourites</string>
+    <string name="sort_popularity">Sort by popularity</string>
+
+</resources>
